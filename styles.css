@@ -1,0 +1,444 @@
+
+  *{
+    box-sizing: border-box;
+}
+body, html{
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+overflow-x: hidden;
+}
+.back{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) , url(https://www.au.edu.pk/AU_New_Assets/images/banner/visitau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80pxvh;
+position: absolute;
+background-attachment: fixed;
+   
+}
+.back h1{
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 20px;
+  }
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  h1 {
+    margin: 0;
+   
+  }
+nav {
+    text-align: right;
+  }
+  
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #dcdbdb; 
+    transition: 0.4s ease-in-out;
+  }
+ nav ul li a:hover{
+    transition: 0.3s;
+    color: blue;
+  }
+
+  .search-container{
+display: flex;
+align-items: center;
+  }
+ 
+  .search-box input[type="text"],
+.search-box button {
+  margin-left: 10px; 
+}
+  .search-container button{
+    padding: 8px 12px;
+  }
+ 
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+  }
+.explore button{
+    display: block;
+    margin: 0 auto; 
+    margin-top: 200px;
+    padding: 20px 50px;
+    background-color: rgb(217, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  .sec-page{
+    padding-top: 100px;
+    background: solid white;
+    width: 100%;
+    height: 100vh;
+
+   
+  }
+  .container3{
+    text-align: center;
+    background-color: white;
+    position: relative;
+
+  }
+.container3 button{
+ 
+    display: block;
+    margin: 0 auto; 
+    padding: 12px 24px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.third-page{
+  padding-top: 0px;
+  width: 100%;
+  height: 280vh;
+  position: relative;
+  background-color: rgb(189, 182, 182);
+  padding: 70px;
+  
+}
+
+.container4{
+  background-color: rgb(202, 201, 201);
+  height: 100vh;
+  position: absolute;
+  margin: 60px;
+  
+}
+.head-camp{
+  text-align: center;
+}
+.container5{
+  align-items: center;
+
+}
+.btn.btn-primary
+{
+  background-color: red;
+  border: none;
+}
+.third-page button{
+   
+  display: block;
+  margin: 0 auto; 
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+.col-1
+{
+ padding-left: 35px;
+ padding-top: 60px;
+ margin: 20px;
+ margin-left: 20px;
+ margin-right: 230px;
+width: 250px;
+margin-left: 60px;
+text-align: center;
+
+}
+.img-resize{
+ height: 250px;
+ width: 350px;
+
+}
+.for-page{
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+ 
+
+}
+desc{
+  text-align: center;
+  font-size: 10px;
+} 
+.card-group{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  border: none;
+  padding: 30px;
+ 
+ 
+}
+.card{
+  box-shadow: none;
+  border: none;
+  padding-left: 20px;
+  
+}
+.passions{
+  align-items: center;
+}
+.for-page button{
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+.data
+{ padding-top: 60px;
+  text-align: center;
+  padding-left: 30px;
+}
+.col-2 h1{
+  font-size: 20px;
+}
+.container6 {
+  display: flex;
+  text-align: center;
+  padding-left: 0;
+}
+
+.container6 h2 {
+  margin: 0 140px; 
+}
+
+.container6 p {
+  margin: 0 110px;
+}
+.fiv-page button{
+  display: block;
+  margin: 0 auto; 
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.six-page{
+  padding-top: 90px;
+}
+.six-page h1{
+text-align: center;
+padding-top: 30px;
+}
+.card {
+  width: 300px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+}
+.card img {
+  max-width: 100%; 
+  max-height: 100%;
+  display: block; 
+  border-radius: 8px; 
+}
+.card {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  font-size: 10px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+.card:hover {
+  transform: translateY(-5px); 
+}
+.sev-page{
+  background-color: rgb(178, 175, 175);
+}
+.sev-page h1{
+  text-align: center;
+  padding-top: 30px;
+  text-align: center;
+ 
+  }
+  .eit-page{
+    text-align: center;
+    padding-top: 40px;
+  }
+.eit-page button{
+  display: block;
+  margin: 0 auto; 
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.container7{
+  width: 100%;
+  height: 250%;
+  background-color: rgb(208, 205, 205);
+  text-align: center;
+
+  
+}
+.container7 h1 {
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+.container7 p {
+  font-size: 15px;
+  
+}
+.container7 .image-container {
+  text-align: justify;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.container7 img {
+  padding-left: 5px;
+  width: 320px;
+  height: 200px;
+}
+.nine-page button{
+  display: block;
+  margin: 0 auto; 
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+.container8{
+  text-align: center;
+  margin-top: 40px;
+}
+.container8 img{
+  height: 60%;
+  width: 60%;
+}
+.container.text-center button{
+  display: block;
+  margin: 0 auto; 
+  padding: 12px 24px;
+  background-color: rgb(203, 29, 29);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.footer{
+ margin-top:30px;
+  background-color: rgb(142, 24, 24);
+  height: 80px;
+  width: 100%;
+}
+.footer h3{
+  color: white;
+}
+.bar a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 30px;
+}
